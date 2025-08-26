@@ -1,4 +1,4 @@
-# Mathematic-Algorithm-Synthesis-Customization-Options-for-Audio-Generation
+### Mathematic-Algorithm-Synthesis-Customization-Options-for-Audio-Generation
 This project aims to develop a set of algorithms in R that can generate audio signals based on customization options. The goal is to create an interactive system where users can input their preferences and receive generated audio outputs.
 
 Code Structure
@@ -94,74 +94,4 @@ grad_j <- function(x0, ji) {
 }
 ```
 
-**Mathematic Algorithm Synthesis: Customization Options for Audio Generation*
-
-```R
-# Load necessary libraries
-library(ggplot2)
-library(shiny)
-
-# Define the VibeVoice algorithm function
-vibe_voice <- function(x0, alpha) {
-  # Initialize x0 to a default set of customization parameters
-  xi <- x0
-  
-  # Iterate over the optimization process
-  for (i in 1:100) {
-    yi <- f(xi)
-    
-    # Update the objective function value Ji based on the quality of the generated audio signal yi
-    ji <- calculate_objective_function(yi)
-    
-    # Update the customization parameters xi+1 using gradient descent
-    xi <- xi - alpha * grad_j(x0, ji)
-  }
-  
-  return(xi)
-}
-
-# Define the NotebookLM algorithm function
-notebook_lm <- function(M) {
-  # Initialize a set of pre-trained models M
-  y <- NULL
-  
-  # Iterate over each model in M
-  for (m in M) {
-    yi <- f(m)
-    
-    # Update the objective function value J(x) based on the quality of the generated audio signal yi
-    jx <- calculate_objective_function(yi)
-    
-    # Add the output audio signal to y
-    if (!is.null(y)) {
-      y <- cbind(y, yi)
-    } else {
-      y <- yi
-    }
-  }
-  
-  return(y)
-}
-
-# Define a function to generate an audio signal based on customization parameters x
-f <- function(x) {
-  # TO DO: implement the actual audio generation algorithm here
-  
-  return(NULL)
-}
-
-# Define a function to calculate the objective function value J(x)
-calculate_objective_function <- function(yi) {
-  # TO DO: implement the actual objective function calculation here
-  
-  return(NULL)
-}
-
-# Define a function to compute the gradient of the objective function at point x
-grad_j <- function(x0, ji) {
-  # TO DO: implement the actual gradient computation algorithm here
-  
-  return(NULL)
-}
-```
 
