@@ -105,4 +105,5 @@ References
 [2] "Audio Signal Processing" by Julius O. Smith III (2007).
 
 "Microsoft VibeVoice vs Google NoteBookLM" link:https://medium.com/data-science-in-your-pocket/microsoft-vibevoice-vs-google-notebooklm-98412ce2ccc1
+
 "Mathematic Algorithm Synthesis: Customization Options for Audio Generation".link: https://medium.com/@armelnong/mathematic-algorithm-synthesis-customization-options-for-audio-generation-0bc18a9e80bf
