@@ -1,8 +1,14 @@
 ### Mathematic-Algorithm-Synthesis-Customization-Options-for-Audio-Generation
 This project aims to develop a set of algorithms in R that can generate audio signals based on customization options. The goal is to create an interactive system where users can input their preferences and receive generated audio outputs.
 
-"The VibeVoice algorithm works by initializing x0 to a default set of customization parameters and then iteratively updating the output audio signal yi = f(xi) based on the current values of xi. The objective function value Ji is updated based on the quality of the generated audio signal yi, and the optimization algorithm (e.g., gradient descent) updates the customization parameters xi+1 such that:
+"The VibeVoice algorithm works by initializing x0 to a default set of customization parameters and then iteratively updating the output audio signal 
+
+yi = f(xi) based on the current values of xi. 
+
+The objective function value Ji is updated based on the quality of the generated audio signal yi, and the optimization algorithm (e.g., gradient descent) updates the customization parameters xi+1 such that:
+
 x_{i+1} = x_i - α ∇J(x_i)
+
 where α is the learning rate and ∇J(xi) is the gradient of the objective function at point xi."
 
 Code Structure
