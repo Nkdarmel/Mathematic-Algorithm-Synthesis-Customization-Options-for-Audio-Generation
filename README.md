@@ -20,7 +20,10 @@ Notes
 
 I have used comments throughout the code to explain each section and indicate where you can implement your own functions for generating audio signals and calculating the objective function.
 
-**Mathematic Algorithm Synthesis: Customization Options for Audio Generation**
+Mathematic Algorithm Synthesis: Customization Options for Audio Generation
+
+Code Snippets in R language
+
 
 ```R
 # Load necessary libraries
@@ -91,9 +94,7 @@ grad_j <- function(x0, ji) {
 }
 ```
 
-Notez que j'ai utilisé des commentaires pour expliquer les différentes parties du code et indiqué où vous pouvez implémenter vos propres fonctions pour générer l'audio signal et calculer la fonction objective.Voici une proposition de code R pour votre projet GitHub :
-
-**Mathematic Algorithm Synthesis: Customization Options for Audio Generation**
+**Mathematic Algorithm Synthesis: Customization Options for Audio Generation*
 
 ```R
 # Load necessary libraries
