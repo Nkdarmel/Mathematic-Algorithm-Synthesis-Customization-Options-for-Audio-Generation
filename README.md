@@ -8,6 +8,7 @@ The objective criterion Ji is updated according to the quality of the generated 
 The optimization algorithm (e.g., gradient descent) updates the personalization parameters xi+1 to minimize the objective function J(x), using the following formula:
 
 x_{i+1} = x_i - α ∇J(xi)
+
 where α is the learning rate and ∇J(xi) is the gradient of the objective criterion at point xi.
 
 Code Structure
