@@ -9,7 +9,7 @@ The objective function value Ji is updated based on the quality of the generated
 
 x_{i+1} = x_i - α ∇J(x_i)
 
-where α is the learning rate and ∇J(xi) is the gradient of the objective function at point xi."
+where α is the learning rate and ∇J(xi) is the gradient of the objective function at point xi." ["Mathematic Algorithm Synthesis: Customization Options for Audio Generation"]
 
 Code Structure
 
